@@ -3,12 +3,15 @@
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
     border: none;
+    outline: 0 !important;
 }
 
 
 .container {
     max-width: 950px;
     margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 @import 'blocks/promo';
@@ -18,3 +21,4 @@
 @import 'blocks/titles.scss';
 @import 'blocks/consultation';
 @import 'blocks/form.scss';
+@import 'blocks/carousel';
