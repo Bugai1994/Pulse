@@ -1,0 +1,20 @@
+    .title{
+        text-align: center;
+        padding-top: 73px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        color: #0D0D0D;
+        text-transform: uppercase;
+        &_left {
+            color: #fff;
+            font-size: 36px;
+            text-align: left;
+        }
+        @media (max-width: 768px) {
+            &_left{
+                text-align: center;
+                line-height: 40px;
+            }
+        }
+    }
