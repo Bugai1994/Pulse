@@ -6,5 +6,8 @@
         color: #ffffff;
         font-size: 20px;
         font-weight: 500;
+        @media(max-width: 950px) {
+            text-align: center;
+        }
     }
 }
